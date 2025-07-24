@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-dash-board-trafic',
+  selector: 'app-dashboard-trafic',
   imports: [],
-  templateUrl: './dash-board-trafic.component.html',
-  styleUrl: './dash-board-trafic.component.css',
+  templateUrl: './dashboard-trafic.component.html',
+  styleUrls: ['./dashboard-trafic.component.css']
 })
-export class DashBoardTraficComponent {
+export class DashboardTraficComponent {
   dummyTrafficData = [
     {
       id: 'd1',

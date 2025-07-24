@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+
 import { HeaderComponent } from './components/header/header.component';
-import { DashBoardServerStatusComponent } from './components/dash-board-server-status/dash-board-server-status.component';
-import { DashBoardTraficComponent } from './components/dash-board-trafic/dash-board-trafic.component';
-import { DashBoardTicketsComponent } from './components/dash-board-tickets/dash-board-tickets.component';
+import { DashboardServerStatusComponent } from './components/dashboard-server-status/dashboard-server-status.component';
+import { DashboardTicketsComponent } from './components/dashboard-tickets/dashboard-tickets.component';
+import { DashboardTraficComponent } from './components/dashboard-trafic/dashboard-trafic.component';
 
 @Component({
   selector: 'app-root',
@@ -10,9 +11,9 @@ import { DashBoardTicketsComponent } from './components/dash-board-tickets/dash-
   templateUrl: './app.component.html',
   imports: [
     HeaderComponent,
-    DashBoardServerStatusComponent,
-    DashBoardTraficComponent,
-    DashBoardTicketsComponent,
+    DashboardServerStatusComponent,
+    DashboardTraficComponent,
+    DashboardTicketsComponent
   ],
 })
 export class AppComponent {}
